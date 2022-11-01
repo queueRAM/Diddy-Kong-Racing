@@ -1,5 +1,17 @@
 #include "builder.h"
 
+#include "../common/util/fileHelper.h"
+#include "../common/util/errorHelper.h"
+
+#include "build_files/build_fonts.h"
+#include "build_files/build_gametext.h"
+#include "build_files/build_levelname.h"
+#include "build_files/build_levelheader.h"
+#include "build_files/build_menutext.h"
+#include "build_files/build_sprite.h"
+#include "build_files/build_texture.h"
+#include "build_files/build_ttghost.h"
+
 Builder::Builder(std::string srcPath, std::string dstPath) {
     if(!path_exists(srcPath)) {
         display_error_and_abort("Invalid path \"", srcPath, "\"");
