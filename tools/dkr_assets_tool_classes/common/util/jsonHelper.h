@@ -120,10 +120,8 @@ inline int get_array_length_from_section(std::string sectionName, FirstKey const
 
 template<typename FirstKey, typename ...RestKeys>
 inline int get_index_of_string_array_value_from_section(std::string sectionName, std::string value, FirstKey const& key, RestKeys const&... rest_keys) {
-    json::JSON *json = get_section_json(sectionName);
-
     std::vector<std::string> arr = get_array_from_section(sectionName, key, rest_keys...);
-    for(int i = 0; i < arr.size(); i++) {
+    for(size_t i = 0; i < arr.size(); i++) {
         if(arr[i] == value) {
             return i;
         }

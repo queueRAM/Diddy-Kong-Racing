@@ -25,7 +25,7 @@ ExtractGameText::ExtractGameText(std::string key, std::vector<uint8_t> data, std
         // Remove this raw part when dialog has been figured out.
         out["raw"] = json::Array();
         size_t dataLength = data.size();
-        for(int i = 0; i < dataLength; i++) {
+        for(size_t i = 0; i < dataLength; i++) {
             out["raw"].append(data[i]);
         }
     } else { // Textbox

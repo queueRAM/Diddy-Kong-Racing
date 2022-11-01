@@ -26,7 +26,7 @@ using std::is_floating_point;
 namespace {
     string json_escape( const string &str ) {
         string output;
-        for( unsigned i = 0; i < str.length(); ++i )
+        for( size_t i = 0; i < str.length(); ++i )
             switch( str[i] ) {
                 case '\"': output += "\\\""; break;
                 case '\\': output += "\\\\"; break;
@@ -305,7 +305,7 @@ class JSON
         }
 
         void save_string(std::vector<uint8_t> &out, std::string value) const {
-            for(int i = 0; i < value.length(); i++) out.push_back((uint8_t)value.at(i));
+            for(size_t i = 0; i < value.length(); i++) out.push_back((uint8_t)value.at(i));
             out.push_back(0); // Null terminator for strings.
         }
 
