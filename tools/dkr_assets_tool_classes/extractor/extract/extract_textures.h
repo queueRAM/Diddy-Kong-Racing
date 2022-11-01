@@ -1,7 +1,13 @@
 #pragma once
 
+#include <cstdint>
+#include <string>
+#include <unordered_map>
+#include <vector>
+
 #include "extract.h"
-#include "../../common/textures.h"
+
+#include "../../libs/json.hpp"
 
 class ExtractTextures : Extract {
 public:

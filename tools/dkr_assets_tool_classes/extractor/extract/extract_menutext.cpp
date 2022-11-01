@@ -1,3 +1,12 @@
+#include <cstdint>
+#include <sstream>
+#include <string>
+#include <vector>
+
+#include "../../common/util.h"
+#include "../../common/util/jsonHelper.h"
+#include "../../libs/json.hpp"
+
 #include "extract_menutext.h"
 
 ExtractMenuText::ExtractMenuText(std::string key, std::vector<uint8_t> data, std::string outFilepath, 
@@ -8,7 +17,7 @@ ExtractMenuText::ExtractMenuText(std::string key, std::vector<uint8_t> data, std
     
     std::cout << key << std::endl;
     
-    uint32_t tableSize = stoi((*tags)["text-entry-count"]);
+    uint32_t tableSize = std::stoi((*tags)["text-entry-count"]);
     
     //out["order"] = json::Array();
     out["sections"] = json::Object();

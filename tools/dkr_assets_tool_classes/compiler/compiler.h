@@ -1,14 +1,6 @@
 #pragma once
 
 #include <string>
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <vector>
-
-#include "../common/util.h"
-#include "../common/types.h"
-#include "../common/revision_number.h"
 
 class AssetCompiler {
 public:

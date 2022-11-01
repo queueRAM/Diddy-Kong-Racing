@@ -1,19 +1,7 @@
 #pragma once
 
-#include <iostream>
-#include <fstream>
-#include <sstream>
 #include <string>
 #include <vector>
-#include <algorithm>
-#include <iterator>
-#include <map>
-#include <regex>
-#include <mutex>
-
-#include "../../libs/calculator.hpp"
-
-#include "fileHelper.h"
 
 void generate_enums_cache(std::string enumsHeaderPath);
 

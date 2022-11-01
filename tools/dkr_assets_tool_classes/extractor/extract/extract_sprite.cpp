@@ -1,3 +1,11 @@
+#include <cstdint>
+#include <string>
+#include <vector>
+
+#include "../../common/util.h"
+#include "../../common/util/jsonHelper.h"
+#include "../../libs/json.hpp"
+
 #include "extract_sprite.h"
 
 ExtractSprite::ExtractSprite(std::string key, std::vector<uint8_t> data, std::string outFilepath, 

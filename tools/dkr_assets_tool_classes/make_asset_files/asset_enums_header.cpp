@@ -1,3 +1,11 @@
+#include <sstream>
+#include <string>
+#include <vector>
+
+#include "../common/util.h"
+#include "../common/util/fileHelper.h"
+#include "../common/util/jsonHelper.h"
+
 #include "asset_enums_header.h"
 
 #define INDENT "    "

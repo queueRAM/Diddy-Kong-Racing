@@ -1,7 +1,8 @@
 #pragma once
 
-#include "../../common/util.h"
-//#include "macros.h"
+#include <cstdint>
+#include <string>
+#include <vector>
 
 class BuildFonts {
 public:

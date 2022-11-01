@@ -1,3 +1,8 @@
+#include "../../common/util.h"
+#include "../../common/util/errorHelper.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+
 #include "build_fonts.h"
 
 #define SIZEOF_FONTS_HEADER 4

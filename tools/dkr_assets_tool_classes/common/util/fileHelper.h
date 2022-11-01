@@ -1,19 +1,12 @@
 #pragma once
 
-#include <fstream>
-#include <sstream>
+#include <cstdint>
 #include <string>
 #include <vector>
-#include <algorithm>
-#include <iterator>
-#include <iostream>
-#include <iomanip>
 
 // C++17
 #include <filesystem>
 namespace fs = std::filesystem;
-
-#include "errorHelper.h"
 
 bool is_asset_folder_path_defined();
 void set_assets_folder_path(std::string path);

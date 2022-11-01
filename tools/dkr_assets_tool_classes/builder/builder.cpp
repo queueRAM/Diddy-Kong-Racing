@@ -2,6 +2,7 @@
 
 #include "../common/util/fileHelper.h"
 #include "../common/util/errorHelper.h"
+#include "../common/util/jsonHelper.h"
 
 #include "build_files/build_fonts.h"
 #include "build_files/build_gametext.h"

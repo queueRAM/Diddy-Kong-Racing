@@ -1,3 +1,9 @@
+#include <cstdint>
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <vector>
+
 #include "extract.h"
 
 Extract::Extract(std::string key, std::vector<uint8_t> data, std::string outFilepath){    

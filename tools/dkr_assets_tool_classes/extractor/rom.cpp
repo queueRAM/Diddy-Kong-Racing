@@ -1,3 +1,15 @@
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+
+// C++17
+#include <filesystem>
+namespace fs = std::filesystem;
+
+#include "../common/util/errorHelper.h"
+#include "../common/util/fileHelper.h"
+
 #include "rom.h"
 
 ROM::ROM(std::string filename){

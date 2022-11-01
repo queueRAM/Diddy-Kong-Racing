@@ -1,3 +1,13 @@
+#include <algorithm>
+
+#include "../../common/textures.h"
+#include "../../common/util.h"
+#include "../../common/util/errorHelper.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+#include "../../libs/DKRCompression.h"
+#include "../../libs/n64graphics.h"
+
 #include "build_texture.h"
 
 #define SET_BOOL_FLAG(flagName, flagVal) \

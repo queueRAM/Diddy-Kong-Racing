@@ -1,3 +1,7 @@
+#include <fstream>
+#include <sstream>
+
+#include "errorHelper.h"
 #include "fileHelper.h"
 #include "md5.h"
 

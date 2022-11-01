@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../common/util.h"
+#include <string>
 
 class BuildLevelName {
 public:

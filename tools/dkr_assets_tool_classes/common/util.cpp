@@ -1,4 +1,9 @@
+#include <cctype>
+#include <sstream>
+
 #include "util.h"
+#include "util/fileHelper.h"
+#include "../libs/DKRCompression.h"
 
 uint32_t get_big_endian_word(std::vector<uint8_t> &data, int offset) {
     return (data[offset] << 24) | (data[offset + 1] << 16) | (data[offset + 2] << 8) | data[offset + 3];
@@ -140,7 +145,7 @@ std::string upper_snake_case_to_pascal_case(std::string input) {
                 out << input[i];
                 isFirst = false;
             } else {
-                out << (char)tolower(input[i]);
+                out << (char)std::tolower(input[i]);
             }
         }
     }

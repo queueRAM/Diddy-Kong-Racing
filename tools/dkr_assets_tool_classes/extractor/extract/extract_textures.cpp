@@ -1,3 +1,15 @@
+#include <cstdint>
+#include <string>
+#include <vector>
+
+#include "../../common/textures.h"
+#include "../../common/util.h"
+#include "../../common/util/errorHelper.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+#include "../../libs/json.hpp"
+#include "../../libs/n64graphics.h"
+
 #include "extract_textures.h"
 
 ExtractTextures::ExtractTextures(std::string key, std::vector<uint8_t> data, std::string outFilepath,

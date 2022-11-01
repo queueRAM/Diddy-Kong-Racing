@@ -1,39 +1,19 @@
 #pragma once
 
+#include <cstdint>
 #include <string>
 #include <vector>
-#include <iostream>
-#include <iomanip>
-#include <fstream>
-#include <sstream>
-#include <regex>
-#include <thread>
 #include <unordered_map>
+
 #include <algorithm>
 
 // C++17
-#include <variant>
 #include <filesystem> 
 namespace fs = std::filesystem;
 
-#include "../common/util.h"
-#include "../common/types.h"
-#include "../common/revision_number.h"
 #include "../libs/json.hpp"
-#include "../libs/ThreadPool.h"
 
 #include "rom.h"
-
-#include "extract/extract_binary.h"
-#include "extract/extract_compressed.h"
-#include "extract/extract_gametext.h"
-#include "extract/extract_fonts.h"
-#include "extract/extract_menutext.h"
-#include "extract/extract_levelname.h"
-#include "extract/extract_levelheader.h"
-#include "extract/extract_sprite.h"
-#include "extract/extract_textures.h"
-#include "extract/extract_ttghost.h"
 
 struct ExtractInfo {
     std::string key;

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../common/util.h"
+#include <string>
 
 #define SIZEOF_LEVEL_HEADER 0xC8
 

@@ -1,3 +1,10 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+#include "../common/util/fileHelper.h"
+
+#include "rom.h"
 #include "extractor.h"
 
 Extractor::Extractor(std::string version, std::string configsDirectory, std::string baseromsDirectory, std::string outDirectory) {

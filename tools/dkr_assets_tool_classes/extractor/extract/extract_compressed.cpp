@@ -1,3 +1,10 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+#include "../../common/util.h"
+#include "../../common/util/fileHelper.h"
+
 #include "extract_compressed.h"
 
 ExtractCompressed::ExtractCompressed(std::string key, std::vector<uint8_t> data, std::string outFilepath) 

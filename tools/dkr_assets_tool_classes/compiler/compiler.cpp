@@ -1,3 +1,11 @@
+#include <string>
+#include <vector>
+
+#include "../common/revision_number.h"
+#include "../common/util/errorHelper.h"
+#include "../common/util/fileHelper.h"
+#include "../common/util/jsonHelper.h"
+
 #include "compiler.h"
 
 // Needs to be defined here.

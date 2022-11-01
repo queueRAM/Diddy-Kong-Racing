@@ -1,3 +1,8 @@
+#include "../../common/util.h"
+#include "../../common/util/enumHelper.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+
 #include "build_levelheader.h"
 
 #define GET_UNKNOWN_VALUE(name, index) get_int_from_json(srcPath, "unknown-data", name, index)

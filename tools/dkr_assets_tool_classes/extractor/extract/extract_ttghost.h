@@ -1,6 +1,12 @@
 #pragma once
 
+#include <cstdint>
+#include <string>
+#include <vector>
+
 #include "extract.h"
+
+#include "../../libs/json.hpp"
 
 class ExtractTTGhost : Extract {
 public:

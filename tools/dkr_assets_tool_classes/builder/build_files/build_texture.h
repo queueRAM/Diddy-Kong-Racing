@@ -1,7 +1,8 @@
 #pragma once
 
-#include "../../common/util.h"
-#include "../../common/textures.h"
+#include <cstdint>
+#include <string>
+#include <vector>
 
 class BuildTexture {
 public:

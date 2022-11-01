@@ -1,7 +1,8 @@
 #pragma once
 
-#include "../common/util.h"
-#include <iomanip>
+#include <cstdint>
+#include <string>
+#include <vector>
 
 class ROM {
 public:

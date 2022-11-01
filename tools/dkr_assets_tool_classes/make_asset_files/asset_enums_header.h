@@ -1,14 +1,8 @@
 #pragma once
 
+#include <sstream>
 #include <string>
 #include <vector>
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <regex>
-#include <thread>
-
-#include "../common/util.h"
 
 class AssetEnumsHeader {
 public:

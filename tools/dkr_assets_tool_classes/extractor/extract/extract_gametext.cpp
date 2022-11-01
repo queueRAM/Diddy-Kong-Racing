@@ -1,3 +1,10 @@
+#include <sstream>
+#include <string>
+#include <vector>
+
+#include "../../common/util.h"
+#include "../../common/util/jsonHelper.h"
+
 #include "extract_gametext.h"
 
 ExtractGameText::ExtractGameText(std::string key, std::vector<uint8_t> data, std::string outFilepath, 

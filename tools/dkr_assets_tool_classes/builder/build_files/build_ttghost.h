@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../../common/util.h"
+#include <string>
 
 #define SIZEOF_TTGHOST_HEADER 8
 #define SIZEOF_TTGHOST_NODE 12

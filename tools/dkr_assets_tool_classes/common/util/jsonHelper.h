@@ -1,18 +1,9 @@
 #pragma once
 
-#include <fstream>
-#include <sstream>
 #include <string>
 #include <vector>
-#include <algorithm>
-#include <iterator>
-#include <unordered_map>
-#include <mutex>
 
 #include "../../libs/json.hpp"
-
-#include "fileHelper.h"
-#include "errorHelper.h"
 
 void write_json(json::JSON &assetsJSON, std::string filename);
 json::JSON load_assets_json(std::string assetsFolder, std::string jsonName);

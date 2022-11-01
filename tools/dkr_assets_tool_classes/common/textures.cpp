@@ -1,4 +1,9 @@
+#include <cstdlib>
+
 #include "textures.h"
+
+#include "util/errorHelper.h"
+#include "../libs/n64graphics.h"
 
 std::string get_texture_format_string(int format) {
     switch(format) {

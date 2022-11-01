@@ -1,3 +1,7 @@
+#include "../../common/util.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+
 #include "build_sprite.h"
 
 #define SIZEOF_SPRITE_HEADER 12

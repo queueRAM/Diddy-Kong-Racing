@@ -1,3 +1,9 @@
+#include <fstream>
+#include <mutex>
+#include <unordered_map>
+
+#include "errorHelper.h"
+#include "fileHelper.h"
 #include "jsonHelper.h"
 
 bool hasLoadedAssetsJson = false;

@@ -1,3 +1,10 @@
+#include <string>
+
+#include "../../common/util.h"
+#include "../../common/util/enumHelper.h"
+#include "../../common/util/jsonHelper.h"
+#include "../../libs/json.hpp"
+
 #include "extract_ttghost.h"
 
 ExtractTTGhost::ExtractTTGhost(std::string key, std::vector<uint8_t> data, std::string outFilepath, 

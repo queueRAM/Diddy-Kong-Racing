@@ -7,6 +7,10 @@
 #include <vector> 
 
 #include "dkr_assets_tool_classes/common/util.h"
+#include "dkr_assets_tool_classes/common/util/enumHelper.h"
+#include "dkr_assets_tool_classes/common/util/errorHelper.h"
+#include "dkr_assets_tool_classes/common/util/fileHelper.h"
+#include "dkr_assets_tool_classes/libs/DKRCompression.h"
 #include "dkr_assets_tool_classes/extractor/extractor.h"
 #include "dkr_assets_tool_classes/builder/builder.h"
 #include "dkr_assets_tool_classes/make_asset_files/asset_enums_header.h"

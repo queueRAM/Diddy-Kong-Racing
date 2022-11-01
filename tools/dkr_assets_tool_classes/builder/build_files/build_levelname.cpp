@@ -1,3 +1,10 @@
+#include <iostream>
+
+#include "../../common/util.h"
+#include "../../common/util/enumHelper.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+
 #include "build_levelname.h"
 
 BuildLevelName::BuildLevelName(std::string srcPath, std::string dstPath) {

@@ -1,4 +1,11 @@
+#include <iostream>
+#include <map>
+#include <regex>
+
 #include "enumHelper.h"
+#include "fileHelper.h"
+
+#include "../../libs/calculator.hpp"
 
 bool is_string_integer(const std::string &s){
     return std::regex_match(s, std::regex("[(-|+)]?[0-9]+"));

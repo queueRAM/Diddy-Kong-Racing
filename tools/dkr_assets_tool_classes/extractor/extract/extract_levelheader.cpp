@@ -1,3 +1,12 @@
+#include <sstream>
+#include <string>
+#include <vector>
+
+#include "../../common/util.h"
+#include "../../common/util/enumHelper.h"
+#include "../../common/util/jsonHelper.h"
+#include "../../libs/json.hpp"
+
 #include "extract_levelheader.h"
 
 // Extracts a bitfield as an array of enum value strings.

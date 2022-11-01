@@ -1,3 +1,10 @@
+#include <string>
+#include <vector>
+
+#include "../../common/util.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+
 #include "extract_fonts.h"
 
 #define SECTION_TEXTURE_2D_INDEX 4

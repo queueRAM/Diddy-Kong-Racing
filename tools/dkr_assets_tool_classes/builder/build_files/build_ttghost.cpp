@@ -1,6 +1,9 @@
-#include "build_ttghost.h"
+#include "../../common/util.h"
+#include "../../common/util/enumHelper.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
 
-#include <chrono>
+#include "build_ttghost.h"
 
 BuildTTGhost::BuildTTGhost(std::string srcPath, std::string dstPath) {
     int numberOfNodes = get_array_length_from_json(srcPath, "nodes");

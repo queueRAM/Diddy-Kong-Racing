@@ -1,7 +1,8 @@
 #pragma once
 
-#include "../../common/util.h"
-#include <unordered_map>
+#include <cstdint>
+#include <string>
+#include <vector>
 
 class Extract {
 public:

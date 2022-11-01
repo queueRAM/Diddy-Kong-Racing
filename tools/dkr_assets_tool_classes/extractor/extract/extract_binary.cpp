@@ -1,3 +1,9 @@
+#include <cstdint>
+#include <string>
+#include <vector>
+
+#include "../../common/util/fileHelper.h"
+
 #include "extract_binary.h"
 
 ExtractBinary::ExtractBinary(std::string key, std::vector<uint8_t> data, std::string outFilepath) 

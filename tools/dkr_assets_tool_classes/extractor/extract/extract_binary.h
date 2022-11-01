@@ -1,5 +1,9 @@
 #pragma once
 
+#include <cstdint>
+#include <string>
+#include <vector>
+
 #include "extract.h"
 
 class ExtractBinary : Extract {

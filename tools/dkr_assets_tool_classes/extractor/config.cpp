@@ -1,3 +1,27 @@
+#include <sstream>
+#include <string>
+#include <thread>
+#include <vector>
+
+#include "../common/revision_number.h"
+#include "../common/util.h"
+#include "../common/util/errorHelper.h"
+#include "../common/util/fileHelper.h"
+#include "../common/util/jsonHelper.h"
+#include "../common/types.h"
+#include "../libs/ThreadPool.h"
+
+#include "extract/extract_levelname.h"
+#include "extract/extract_binary.h"
+#include "extract/extract_compressed.h"
+#include "extract/extract_gametext.h"
+#include "extract/extract_fonts.h"
+#include "extract/extract_menutext.h"
+#include "extract/extract_levelheader.h"
+#include "extract/extract_sprite.h"
+#include "extract/extract_textures.h"
+#include "extract/extract_ttghost.h"
+
 #include "config.h"
 
 const std::string BASE_DIR_NAME = "vanilla";

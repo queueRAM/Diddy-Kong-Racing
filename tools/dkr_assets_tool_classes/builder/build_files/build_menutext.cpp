@@ -1,3 +1,10 @@
+#include <cstdint>
+#include <vector>
+
+#include "../../common/util.h"
+#include "../../common/util/fileHelper.h"
+#include "../../common/util/jsonHelper.h"
+
 #include "build_menutext.h"
 
 BuildMenuText::BuildMenuText(std::string srcPath, std::string dstPath) {

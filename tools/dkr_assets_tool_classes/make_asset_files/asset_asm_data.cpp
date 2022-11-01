@@ -1,3 +1,12 @@
+#include <sstream>
+#include <string>
+#include <vector>
+
+#include "../common/util.h"
+#include "../common/util/enumHelper.h"
+#include "../common/util/fileHelper.h"
+#include "../common/util/jsonHelper.h"
+
 #include "asset_asm_data.h"
 
 #define ASSETS_START_LABEL "ASSETS_START"
